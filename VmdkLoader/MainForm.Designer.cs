@@ -121,6 +121,11 @@
             // nudSize
             // 
             this.nudSize.Location = new System.Drawing.Point(210, 55);
+            this.nudSize.Maximum = new decimal(new int[] {
+            1234567890,
+            0,
+            0,
+            0});
             this.nudSize.Minimum = new decimal(new int[] {
             100,
             0,
